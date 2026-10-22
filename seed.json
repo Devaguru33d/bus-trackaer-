@@ -1,0 +1,345 @@
+{
+  "buses": {
+    "1": {
+      "name": "Tambaram",
+      "driver": "Murugan S.",
+      "stops": [
+        "Tambaram Bus Stand",
+        "Perungalathur Stn",
+        "Vandalur Junction",
+        "Mudichur Signal",
+        "CIT Main Gate"
+      ],
+      "progress": 62,
+      "status": "transit",
+      "pickup": "6:30 AM",
+      "drop": "5:30 PM",
+      "total": 32,
+      "picked": 28,
+      "color": "#1E40AF",
+      "bg": "#DBEAFE",
+      "etaMin": 18
+    },
+    "2": {
+      "name": "Kilambakkam Bus Stand",
+      "driver": "Rajkumar P.",
+      "stops": [
+        "Kilambakkam Bus Stand",
+        "Vandalur Police Qtrs",
+        "Thaiyur Junction",
+        "Kalavakkam",
+        "CIT Main Gate"
+      ],
+      "progress": 80,
+      "status": "transit",
+      "pickup": "6:45 AM",
+      "drop": "5:45 PM",
+      "total": 28,
+      "picked": 26,
+      "color": "#059669",
+      "bg": "#D1FAE5",
+      "etaMin": 7
+    },
+    "3": {
+      "name": "Chrompet",
+      "driver": "Selvam K.",
+      "stops": [
+        "Chrompet Junction",
+        "Pallavaram Signal",
+        "Tambaram East",
+        "Perungalathur",
+        "CIT Main Gate"
+      ],
+      "progress": 100,
+      "status": "arrived",
+      "pickup": "6:20 AM",
+      "drop": "5:20 PM",
+      "total": 24,
+      "picked": 24,
+      "color": "#059669",
+      "bg": "#D1FAE5",
+      "etaMin": 0
+    },
+    "4": {
+      "name": "Perungalathur",
+      "driver": "Dinesh R.",
+      "stops": [
+        "Perungalathur Station",
+        "Mudichur Junction",
+        "Padappai Village",
+        "Thaiyur",
+        "CIT Main Gate"
+      ],
+      "progress": 38,
+      "status": "transit",
+      "pickup": "6:50 AM",
+      "drop": "5:50 PM",
+      "total": 20,
+      "picked": 12,
+      "color": "#D97706",
+      "bg": "#FEF3C7",
+      "etaMin": 28
+    },
+    "5": {
+      "name": "Vandalur",
+      "driver": "Anbu M.",
+      "stops": [
+        "Vandalur Depot",
+        "Padappai Bus Stop",
+        "Kalavakkam Signal",
+        "Thaiyur Bypass",
+        "CIT Main Gate"
+      ],
+      "progress": 55,
+      "status": "transit",
+      "pickup": "6:55 AM",
+      "drop": "5:55 PM",
+      "total": 22,
+      "picked": 18,
+      "color": "#7C3AED",
+      "bg": "#EDE9FE",
+      "etaMin": 20
+    },
+    "6": {
+      "name": "Pallavaram",
+      "driver": "Senthil V.",
+      "stops": [
+        "Pallavaram Bus Stand",
+        "Chrompet Jn",
+        "Tambaram East",
+        "Perungalathur",
+        "CIT Main Gate"
+      ],
+      "progress": 8,
+      "status": "delayed",
+      "pickup": "6:25 AM",
+      "drop": "5:25 PM",
+      "total": 26,
+      "picked": 5,
+      "color": "#DC2626",
+      "bg": "#FEE2E2",
+      "etaMin": 50,
+      "delay": 20
+    },
+    "7": {
+      "name": "Medavakkam",
+      "driver": "Ganesan T.",
+      "stops": [
+        "Medavakkam Jn",
+        "Kovilambakkam",
+        "Pallavaram",
+        "Chromepet",
+        "CIT Main Gate"
+      ],
+      "progress": 30,
+      "status": "transit",
+      "pickup": "6:10 AM",
+      "drop": "5:10 PM",
+      "total": 30,
+      "picked": 20,
+      "color": "#0891B2",
+      "bg": "#CFFAFE",
+      "etaMin": 35
+    },
+    "8": {
+      "name": "Velachery",
+      "driver": "Karthik B.",
+      "stops": [
+        "Velachery MRTS",
+        "Vijaya Nagar",
+        "Pallavaram Jn",
+        "Chrompet",
+        "CIT Main Gate"
+      ],
+      "progress": 18,
+      "status": "transit",
+      "pickup": "6:00 AM",
+      "drop": "5:00 PM",
+      "total": 34,
+      "picked": 16,
+      "color": "#0891B2",
+      "bg": "#CFFAFE",
+      "etaMin": 40
+    },
+    "9": {
+      "name": "Porur",
+      "driver": "Suresh A.",
+      "stops": [
+        "Porur Junction",
+        "Maduravoyal",
+        "Poonamallee",
+        "Kundrathur Jn",
+        "CIT Main Gate"
+      ],
+      "progress": 45,
+      "status": "transit",
+      "pickup": "6:40 AM",
+      "drop": "5:40 PM",
+      "total": 25,
+      "picked": 18,
+      "color": "#EA580C",
+      "bg": "#FFEDD5",
+      "etaMin": 24
+    },
+    "10": {
+      "name": "Ambattur",
+      "driver": "Venkat R.",
+      "stops": [
+        "Ambattur Industrial",
+        "Koyambedu",
+        "Poonamallee",
+        "Kundrathur Jn",
+        "CIT Main Gate"
+      ],
+      "progress": 22,
+      "status": "transit",
+      "pickup": "6:15 AM",
+      "drop": "5:15 PM",
+      "total": 28,
+      "picked": 14,
+      "color": "#EA580C",
+      "bg": "#FFEDD5",
+      "etaMin": 38
+    },
+    "11": {
+      "name": "Avadi",
+      "driver": "Ramesh N.",
+      "stops": [
+        "Avadi Bus Depot",
+        "Ambattur OT",
+        "Koyambedu",
+        "Poonamallee",
+        "CIT Main Gate"
+      ],
+      "progress": 12,
+      "status": "transit",
+      "pickup": "5:55 AM",
+      "drop": "5:00 PM",
+      "total": 22,
+      "picked": 10,
+      "color": "#7C3AED",
+      "bg": "#EDE9FE",
+      "etaMin": 48
+    },
+    "12": {
+      "name": "Poonamallee",
+      "driver": "Karthi S.",
+      "stops": [
+        "Poonamallee Bus Stand",
+        "Kundrathur Old Town",
+        "Kundrathur Jn",
+        "Somangalam Rd",
+        "CIT Main Gate"
+      ],
+      "progress": 70,
+      "status": "transit",
+      "pickup": "7:00 AM",
+      "drop": "6:00 PM",
+      "total": 20,
+      "picked": 17,
+      "color": "#1E40AF",
+      "bg": "#DBEAFE",
+      "etaMin": 12
+    }
+  },
+  "notices": [
+    {
+      "icon": "⚠️",
+      "bg": "#FEF3C7",
+      "title": "Bus 6 — Pallavaram delayed 20 min",
+      "body": "Heavy traffic at Pallavaram junction. Driver informed. Expected arrival 8:50 AM.",
+      "time": "7:52 AM"
+    },
+    {
+      "icon": "✅",
+      "bg": "#D1FAE5",
+      "title": "Bus 3 — Chrompet arrived at CIT",
+      "body": "Bus 3 entered CIT Main Gate. All 24 students dropped safely. Driver: Selvam K.",
+      "time": "7:55 AM"
+    },
+    {
+      "icon": "📢",
+      "bg": "#DBEAFE",
+      "title": "Exam week — Bus timing change",
+      "body": "During exam week (July 1–10), evening buses depart at 1:30 PM instead of 4:30 PM.",
+      "time": "2 days ago"
+    },
+    {
+      "icon": "🔧",
+      "bg": "#FFEDD5",
+      "title": "Bus 6 — Alternate route today",
+      "body": "Due to road work near Pallavaram, Bus 6 takes GST Road alternate route today only.",
+      "time": "6:00 AM"
+    },
+    {
+      "icon": "🎉",
+      "bg": "#EDE9FE",
+      "title": "New Bus 11 — Avadi route added",
+      "body": "Bus 11 now serves Avadi, Ambattur OT, and Koyambedu. Register at CIT transport office.",
+      "time": "Yesterday"
+    }
+  ],
+  "absences": [
+    {
+      "name": "Karthik Raja",
+      "roll": "CIT2021CS012",
+      "bus": "1",
+      "trip": "Full day"
+    },
+    {
+      "name": "Divya Lakshmi",
+      "roll": "CIT2021CS034",
+      "bus": "1",
+      "trip": "Morning only"
+    },
+    {
+      "name": "Surya Kumar",
+      "roll": "CIT2021CS008",
+      "bus": "2",
+      "trip": "Full day"
+    }
+  ],
+  "logs": [
+    {
+      "bus": "3",
+      "action": "entry",
+      "time": "7:55 AM",
+      "notes": "On time",
+      "hc": "24"
+    },
+    {
+      "bus": "2",
+      "action": "entry",
+      "time": "8:06 AM",
+      "notes": "2 min early",
+      "hc": "26"
+    },
+    {
+      "bus": "1",
+      "action": "delay",
+      "time": "8:03 AM",
+      "notes": "In transit — 18 min away",
+      "hc": "28"
+    }
+  ],
+  "complaints": [
+    {
+      "id": 1,
+      "roll": "CIT2021CS042",
+      "name": "Priya Sharma",
+      "type": "Bus Late / Delay",
+      "bus": "Bus 1 — Tambaram",
+      "description": "Bus arrived 20 min late on 20 June",
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "roll": "CIT2021CS042",
+      "name": "Priya Sharma",
+      "type": "Bus Overcrowded",
+      "bus": "Bus 1 — Tambaram",
+      "description": "Resolved — extra seat added · 15 June",
+      "status": "Resolved"
+    }
+  ]
+}
